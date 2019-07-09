@@ -1,0 +1,1 @@
+window.key_emit = require(".");
