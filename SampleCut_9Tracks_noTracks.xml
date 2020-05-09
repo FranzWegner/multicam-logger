@@ -1,0 +1,829 @@
+﻿<?xml version="1.0"?>
+<xmeml version="5">
+	<project>
+		<name>Untitled Project 1</name>
+		<children>
+			<bin>
+				<updatebehavior>add</updatebehavior>
+				<name>Medienordner</name>
+				<children />
+			</bin>
+			<clip id="Cam1.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam1.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam1.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam1.MTS1">
+								<name>Cam1.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam1.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam1">
+									<name>Cam1.MTS</name>
+									<pathurl>file://localhost/W:/Cam1.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam2.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam2.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam2.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam2.MTS1">
+								<name>Cam2.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam2.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam2">
+									<name>Cam2.MTS</name>
+									<pathurl>file://localhost/W:/Cam2.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam3.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam3.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam3.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam3.MTS1">
+								<name>Cam3.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam3.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam3">
+									<name>Cam3.MTS</name>
+									<pathurl>file://localhost/W:/Cam3.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam4.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam4.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam4.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam4.MTS1">
+								<name>Cam4.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam4.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam4">
+									<name>Cam4.MTS</name>
+									<pathurl>file://localhost/W:/Cam4.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam5.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam5.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam5.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam5.MTS1">
+								<name>Cam5.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam5.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam5">
+									<name>Cam5.MTS</name>
+									<pathurl>file://localhost/W:/Cam5.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam6.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam6.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam6.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam6.MTS1">
+								<name>Cam6.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam6.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam6">
+									<name>Cam6.MTS</name>
+									<pathurl>file://localhost/W:/Cam6.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam7.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam7.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam7.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam7.MTS1">
+								<name>Cam7.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam7.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam7">
+									<name>Cam7.MTS</name>
+									<pathurl>file://localhost/W:/Cam7.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam8.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam8.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam8.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam8.MTS1">
+								<name>Cam8.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam8.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam8">
+									<name>Cam8.MTS</name>
+									<pathurl>file://localhost/W:/Cam8.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
+			<clip id="Cam9.MTS">
+				<updatebehavior>add</updatebehavior>
+				<name>Cam9.MTS</name>
+				<duration>500</duration>
+				<rate>
+					<ntsc>FALSE</ntsc>
+					<timebase>0</timebase>
+				</rate>
+				<in>-1</in>
+				<out>-1</out>
+				<masterclipid>Cam9.MTS</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<logginginfo>
+					<scene />
+					<shottake />
+					<lognote />
+					<good>FALSE</good>
+				</logginginfo>
+				<labels>
+					<label2 />
+				</labels>
+				<comments>
+					<mastercomment1 />
+					<mastercomment2 />
+					<mastercomment3 />
+					<mastercomment4 />
+				</comments>
+				<media>
+					<video>
+						<track>
+							<clipitem id="Cam9.MTS1">
+								<name>Cam9.MTS</name>
+								<duration>0</duration>
+								<rate>
+									<ntsc>FALSE</ntsc>
+									<timebase>0</timebase>
+								</rate>
+								<in>0</in>
+								<out>0</out>
+								<start>0</start>
+								<end>0</end>
+								<pixelaspectratio>Square</pixelaspectratio>
+								<anamorphic>FALSE</anamorphic>
+								<alphatype>straight</alphatype>
+								<masterclipid>Cam9.MTS</masterclipid>
+								<logginginfo>
+									<scene />
+									<shottake />
+									<lognote />
+									<good>FALSE</good>
+								</logginginfo>
+								<labels>
+									<label2 />
+								</labels>
+								<comments>
+									<mastercomment1 />
+									<mastercomment2 />
+									<mastercomment3 />
+									<mastercomment4 />
+								</comments>
+								<file id="Cam9">
+									<name>Cam9.MTS</name>
+									<pathurl>file://localhost/W:/Cam9.MTS</pathurl>
+									<rate>
+										<timebase>0</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>0</duration>
+									<timecode>
+										<rate>
+											<timebase>0</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<frame>0</frame>
+										<displayformat>NDF</displayformat>
+										<source>source</source>
+									</timecode>
+									<media />
+								</file>
+								<sourcetrack>
+									<mediatype>video</mediatype>
+								</sourcetrack>
+								<fielddominance>none</fielddominance>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio />
+				</media>
+			</clip>
