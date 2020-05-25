@@ -7,30 +7,22 @@ const fs = require('fs');
 const ioHook = require('iohook');
 var keycode = require('keycode');
 
-// ioHook.on('keydown', event => {
-// console.log(event); // { type: 'mousemove', x: 700, y: 400 }
-// console.log(keycode(event.rawcode).split(' ')[1]);
-// });
 
-// Register and start hook
+
 ioHook.start();
 
-// Alternatively, pass true to start in DEBUG mode.
+
 ioHook.start(true);
 
 const startTime = Date.now();
 
 let endOfLastEdlClip = 0;
 
-//cutsArray
+
 
 let cuts = [];
 
-//let cutsEx = [[0, 1491012553536],
-//[2, 1491012555147],
-//[3, 1491012559010],
-//[5, 1491012570034],
-//[1, 1491012572666]];
+
 
 
 //angle, when pressed
@@ -77,7 +69,7 @@ function generateEDL(cutsEx) {
 
             subString += EdlStartTime + ".0000; " + EdlLength + ".0000";
             subString += "; 1.000000; FALSE; FALSE; 0; TRUE; FALSE; VIDEO; "
-            subString += "U:\\\Cam" + j + ".MTS; 0; "
+            subString += "U:\\\Cam" + j + ".MP4; 0; "
             subString += EdlStartTime + ".0000; " + EdlLength + ".0000";
             subString += "; 0.0000; 0.0000; 1.000000; 4; 0.000000; 4; 0.000000; 0; -1; 4; 4; 0.000000; FALSE; 0; 0";
 
@@ -89,8 +81,7 @@ function generateEDL(cutsEx) {
 
     }
 
-    // finalString += "\n";
-    // finalString += i
+
     for (let i = 1; i < stringA.length; i++) {
         finalString += "\n";
         finalString += i;
@@ -101,44 +92,18 @@ function generateEDL(cutsEx) {
 
 }
 
-// const readline = require('readline');
-// readline.emitKeypressEvents(process.stdin);
-// process.stdin.setRawMode(true);
-// process.stdin.on('keypress', (str, key) => {
-// if (key.ctrl && key.name === 'c') {
 
-// //  console.log(generateEDL(cuts));
-// saveEDL(cuts, true);
-
-// //   process.exit();
-// } else {
-// //console.log(`You pressed the "${str}" key`);
-// //console.log();
-// //console.log(key);
-// //console.log();
-
-// if (cuts.length % 100 == 0){
-// saveEDL(cuts, false);
-// }
-
-// handleCameraSwitch(key.name, Date.now());
-
-// }
-// });
 
 ioHook.on('keydown', event => {
 
-    // console.log(event.keycode)
+
 
     if (event.ctrlKey && event.keycode == 31) {
-        //  console.log(generateEDL(cuts));
+
         saveEDL(cuts, true);
-        //  process.exit();
+
     } else {
-        //console.log(`You pressed the "${str}" key`);
-        //console.log();
-        //console.log(key);
-        //console.log();
+
 
         if (cuts.length % 100 == 0) {
             saveEDL(cuts, false);
@@ -179,7 +144,7 @@ function saveEDL(EDLcuts, wannaTerminate) {
 }
 
 function handleCameraSwitch(keyString, date) {
-    //  console.log(keyString);
+
 
     if (keyString != undefined && keyString.startsWith("numpad")) {
 
@@ -194,9 +159,9 @@ function handleCameraSwitch(keyString, date) {
 
 
     if (isNaN(cameraAngle)) {
-        //    console.log("Keine Nummer!");
+
     } else {
-        // console.log(cameraAngle);
+
 
         if (cameraAngle <= amountOfCams) {
 
@@ -204,14 +169,14 @@ function handleCameraSwitch(keyString, date) {
             let cutsSize = cuts.length;
 
 
-            // cuts.push([cameraAngle, date, true]);
+
             cuts.push([cameraAngle, date]);
 
 
 
-            //console.log(cuts);
 
-            //  console.log(cuts);
+
+
             console.log("[" + keyString + "] | " + cutsSize + " cuts recorded.")
 
         }
@@ -291,25 +256,6 @@ let clips = [
 ]
 
 
-/* fs.readFile('Sample/SampleCut_9Tracks_noTracks.xml', 'utf8', (err, data) => {
-
-    fs.readFile('blockbuster.txt', 'utf8', (err, edlData) => {
-
-        parseEdl(edlData);
-
-        let finalStringToWrite = data + xmlString.startOfSequence + generateTracksXML(clips) + xmlString.endOfSequence;
-
-        fs.writeFile(`${Date.now()}.xml`, finalStringToWrite, (err) => {
-            if (err) throw err;
-            console.log(clips);
-            console.log('The file has been saved!');
-        });
-    });
-
-}); */
-
-
-
 
 function generateTracksXML(clipItems) {
 
@@ -326,7 +272,7 @@ function generateTracksXML(clipItems) {
 
             resultXML += `
                             <clipitem>
-								<name>${currentClipItem.filename}.MTS</name>
+								<name>${currentClipItem.filename}.MP4</name>
 								<duration>356</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -339,7 +285,7 @@ function generateTracksXML(clipItems) {
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>${currentClipItem.filename}.MTS</masterclipid>
+								<masterclipid>${currentClipItem.filename}.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -417,16 +363,6 @@ function parseEdl(edl) {
 }
 
 function addParsedEdlClipToClipObj(clipItem) {
-    /*     {
-            filename: "Cam1",
-            inClip: 0,
-            outClip: 23,
-            startTimeline: 407,
-            outTimeline: 430
-        } */
-
-
-    //  let inClip = clipItem.clipIn
     let returnObj = {
         filename: clipItem.filename,
         inClip: msToFrames(clipItem.clipIn),

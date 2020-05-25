@@ -8,9 +8,9 @@
 				<name>Medienordner</name>
 				<children />
 			</bin>
-			<clip id="Cam1.MTS">
+			<clip id="Cam1.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam1.MTS</name>
+				<name>Cam1.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -18,7 +18,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam1.MTS</masterclipid>
+				<masterclipid>Cam1.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -38,8 +38,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam1.MTS1">
-								<name>Cam1.MTS</name>
+							<clipitem id="Cam1.MP41">
+								<name>Cam1.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -52,7 +52,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam1.MTS</masterclipid>
+								<masterclipid>Cam1.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -69,8 +69,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam1">
-									<name>Cam1.MTS</name>
-									<pathurl>file://localhost/W:/Cam1.MTS</pathurl>
+									<name>Cam1.MP4</name>
+									<pathurl>file://localhost/W:/Cam1.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -99,9 +99,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam2.MTS">
+			<clip id="Cam2.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam2.MTS</name>
+				<name>Cam2.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -109,7 +109,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam2.MTS</masterclipid>
+				<masterclipid>Cam2.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -129,8 +129,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam2.MTS1">
-								<name>Cam2.MTS</name>
+							<clipitem id="Cam2.MP41">
+								<name>Cam2.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -143,7 +143,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam2.MTS</masterclipid>
+								<masterclipid>Cam2.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -160,8 +160,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam2">
-									<name>Cam2.MTS</name>
-									<pathurl>file://localhost/W:/Cam2.MTS</pathurl>
+									<name>Cam2.MP4</name>
+									<pathurl>file://localhost/W:/Cam2.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -190,9 +190,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam3.MTS">
+			<clip id="Cam3.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam3.MTS</name>
+				<name>Cam3.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -200,7 +200,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam3.MTS</masterclipid>
+				<masterclipid>Cam3.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -220,8 +220,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam3.MTS1">
-								<name>Cam3.MTS</name>
+							<clipitem id="Cam3.MP41">
+								<name>Cam3.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -234,7 +234,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam3.MTS</masterclipid>
+								<masterclipid>Cam3.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -251,8 +251,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam3">
-									<name>Cam3.MTS</name>
-									<pathurl>file://localhost/W:/Cam3.MTS</pathurl>
+									<name>Cam3.MP4</name>
+									<pathurl>file://localhost/W:/Cam3.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -281,9 +281,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam4.MTS">
+			<clip id="Cam4.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam4.MTS</name>
+				<name>Cam4.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -291,7 +291,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam4.MTS</masterclipid>
+				<masterclipid>Cam4.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -311,8 +311,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam4.MTS1">
-								<name>Cam4.MTS</name>
+							<clipitem id="Cam4.MP41">
+								<name>Cam4.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -325,7 +325,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam4.MTS</masterclipid>
+								<masterclipid>Cam4.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -342,8 +342,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam4">
-									<name>Cam4.MTS</name>
-									<pathurl>file://localhost/W:/Cam4.MTS</pathurl>
+									<name>Cam4.MP4</name>
+									<pathurl>file://localhost/W:/Cam4.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -372,9 +372,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam5.MTS">
+			<clip id="Cam5.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam5.MTS</name>
+				<name>Cam5.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -382,7 +382,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam5.MTS</masterclipid>
+				<masterclipid>Cam5.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -402,8 +402,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam5.MTS1">
-								<name>Cam5.MTS</name>
+							<clipitem id="Cam5.MP41">
+								<name>Cam5.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -416,7 +416,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam5.MTS</masterclipid>
+								<masterclipid>Cam5.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -433,8 +433,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam5">
-									<name>Cam5.MTS</name>
-									<pathurl>file://localhost/W:/Cam5.MTS</pathurl>
+									<name>Cam5.MP4</name>
+									<pathurl>file://localhost/W:/Cam5.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -463,9 +463,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam6.MTS">
+			<clip id="Cam6.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam6.MTS</name>
+				<name>Cam6.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -473,7 +473,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam6.MTS</masterclipid>
+				<masterclipid>Cam6.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -493,8 +493,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam6.MTS1">
-								<name>Cam6.MTS</name>
+							<clipitem id="Cam6.MP41">
+								<name>Cam6.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -507,7 +507,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam6.MTS</masterclipid>
+								<masterclipid>Cam6.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -524,8 +524,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam6">
-									<name>Cam6.MTS</name>
-									<pathurl>file://localhost/W:/Cam6.MTS</pathurl>
+									<name>Cam6.MP4</name>
+									<pathurl>file://localhost/W:/Cam6.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -554,9 +554,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam7.MTS">
+			<clip id="Cam7.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam7.MTS</name>
+				<name>Cam7.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -564,7 +564,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam7.MTS</masterclipid>
+				<masterclipid>Cam7.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -584,8 +584,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam7.MTS1">
-								<name>Cam7.MTS</name>
+							<clipitem id="Cam7.MP41">
+								<name>Cam7.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -598,7 +598,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam7.MTS</masterclipid>
+								<masterclipid>Cam7.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -615,8 +615,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam7">
-									<name>Cam7.MTS</name>
-									<pathurl>file://localhost/W:/Cam7.MTS</pathurl>
+									<name>Cam7.MP4</name>
+									<pathurl>file://localhost/W:/Cam7.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -645,9 +645,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam8.MTS">
+			<clip id="Cam8.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam8.MTS</name>
+				<name>Cam8.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -655,7 +655,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam8.MTS</masterclipid>
+				<masterclipid>Cam8.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -675,8 +675,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam8.MTS1">
-								<name>Cam8.MTS</name>
+							<clipitem id="Cam8.MP41">
+								<name>Cam8.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -689,7 +689,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam8.MTS</masterclipid>
+								<masterclipid>Cam8.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -706,8 +706,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam8">
-									<name>Cam8.MTS</name>
-									<pathurl>file://localhost/W:/Cam8.MTS</pathurl>
+									<name>Cam8.MP4</name>
+									<pathurl>file://localhost/W:/Cam8.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
@@ -736,9 +736,9 @@
 					<audio />
 				</media>
 			</clip>
-			<clip id="Cam9.MTS">
+			<clip id="Cam9.MP4">
 				<updatebehavior>add</updatebehavior>
-				<name>Cam9.MTS</name>
+				<name>Cam9.MP4</name>
 				<duration>500</duration>
 				<rate>
 					<ntsc>FALSE</ntsc>
@@ -746,7 +746,7 @@
 				</rate>
 				<in>-1</in>
 				<out>-1</out>
-				<masterclipid>Cam9.MTS</masterclipid>
+				<masterclipid>Cam9.MP4</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
 				<logginginfo>
 					<scene />
@@ -766,8 +766,8 @@
 				<media>
 					<video>
 						<track>
-							<clipitem id="Cam9.MTS1">
-								<name>Cam9.MTS</name>
+							<clipitem id="Cam9.MP41">
+								<name>Cam9.MP4</name>
 								<duration>0</duration>
 								<rate>
 									<ntsc>FALSE</ntsc>
@@ -780,7 +780,7 @@
 								<pixelaspectratio>Square</pixelaspectratio>
 								<anamorphic>FALSE</anamorphic>
 								<alphatype>straight</alphatype>
-								<masterclipid>Cam9.MTS</masterclipid>
+								<masterclipid>Cam9.MP4</masterclipid>
 								<logginginfo>
 									<scene />
 									<shottake />
@@ -797,8 +797,8 @@
 									<mastercomment4 />
 								</comments>
 								<file id="Cam9">
-									<name>Cam9.MTS</name>
-									<pathurl>file://localhost/W:/Cam9.MTS</pathurl>
+									<name>Cam9.MP4</name>
+									<pathurl>file://localhost/W:/Cam9.MP4</pathurl>
 									<rate>
 										<timebase>0</timebase>
 										<ntsc>FALSE</ntsc>
