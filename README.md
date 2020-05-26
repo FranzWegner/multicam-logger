@@ -33,4 +33,4 @@ const amountOfCams = 4;
 # Alternatives
 * [Multicam Logger by Softron](https://softron.tv/products/multicam-logger) - For Mac only, 1.495€, supports multicam track import to Final Cut Pro and Premiere Pro
 * [H2R Logger](https://heretorecord.com/logger/) - For Mac & Windows, supports FCPX & Resolve, currently in closed beta
-* [Logger by @bart_at_work](https://youtu.be/OjZmxuU_glM?t=222) - Reads switches directly from ATEM, currently not public
+* [Logger](https://youtu.be/OjZmxuU_glM?t=222) by [@bart_at_work](https://twitter.com/bart_at_work) - Reads switches directly from ATEM, currently not public
