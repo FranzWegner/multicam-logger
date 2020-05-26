@@ -125,7 +125,10 @@ function saveEDL(EDLcuts, wannaTerminate) {
     let currentDay = currentMoment.slice(0, 10);
     let currentTime = currentMoment.slice(10, 19).replace(/:/g, "_");
 
-    let StringToWrite = generateEDL(cuts);
+    let StringToWrite = generateEDL(EDLcuts);
+
+    // this fixes weird beginning of timelines
+    endOfLastEdlClip = 0;
 
     let filename = "" + currentDay + currentTime;
 
@@ -144,6 +147,7 @@ function saveEDL(EDLcuts, wannaTerminate) {
 }
 
 function handleCameraSwitch(keyString, date) {
+
 
 
     if (keyString != undefined && keyString.startsWith("numpad")) {
@@ -388,9 +392,24 @@ fs.readFile('SampleCut_9Tracks_noTracks.xml', 'utf8', (err, data) => {
 
 function writeFCPXML(edlData, filename) {
 
+    console.log(edlData);
+
     parseEdl(edlData);
 
     let xmlStringToSave = xmlHeader + xmlString.startOfSequence + generateTracksXML(clips) + xmlString.endOfSequence;
+
+    // fix duplicating XML clips
+    clips = [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ];
 
     fs.writeFile(`${filename}.xml`, xmlStringToSave, (err) => {
         if (err) throw err;
