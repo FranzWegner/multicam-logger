@@ -1,6 +1,13 @@
 # Multicam Logger
 
-Start the script in terminal (You need [Node.js](https://nodejs.org/en/download/) installed first)
+First install [Node.js](https://nodejs.org/en/download/)
+
+Then install io-hook in your terminal, while being in the script folder (this will capture your keyboard presses)
+```sh
+$ npm install iohook
+```
+
+Start the script in terminal
 
 ```sh
 $ node main

@@ -392,7 +392,6 @@ fs.readFile('SampleCut_9Tracks_noTracks.xml', 'utf8', (err, data) => {
 
 function writeFCPXML(edlData, filename) {
 
-    console.log(edlData);
 
     parseEdl(edlData);
 
