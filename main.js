@@ -1,6 +1,7 @@
 "use strict"
 
-const amountOfCams = 4;
+// TO DO handle saving of lots of camera angles (edl parse is starting before edl is ready)
+let amountOfCams = 4;
 
 const fs = require('fs');
 
@@ -8,11 +9,40 @@ const ioHook = require('iohook');
 var keycode = require('keycode');
 
 
+let startParams = {
+    "option": process.argv[2],
+    "ip": process.argv[3]
+}
 
-ioHook.start();
+if (startParams.option === "atem") {
+    var Atem = require('atem')
+    var myAtemDevice = new Atem()
+    myAtemDevice.ip = startParams.ip;
+    myAtemDevice.connect()
+
+    //amountOfCams = 9;
+    myAtemDevice.on('programBus', function(source) {
+
+        handleCameraSwitch(source, Date.now(), true);
+    });
+
+    myAtemDevice.on('connectionStateChange', function(state) {
+        console.log('ATEM State: ', state.description);
+    });
+
+}
+
+ioStart();
 
 
-ioHook.start(true);
+
+function ioStart() {
+    ioHook.start();
+    ioHook.start(true);
+    console.log('Press 1 - ' + amountOfCams + " on your keyboard...");
+}
+
+
 
 const startTime = Date.now();
 
@@ -21,7 +51,6 @@ let endOfLastEdlClip = 0;
 
 
 let cuts = [];
-
 
 
 
@@ -109,7 +138,10 @@ ioHook.on('keydown', event => {
             saveEDL(cuts, false);
         }
 
-        handleCameraSwitch(keycode(event.rawcode), Date.now());
+        if (startParams.option !== "atem") {
+            handleCameraSwitch(keycode(event.rawcode), Date.now(), false);
+        }
+
 
     }
 });
@@ -117,7 +149,7 @@ ioHook.on('keydown', event => {
 
 
 
-console.log('Press any key...');
+
 
 function saveEDL(EDLcuts, wannaTerminate) {
 
@@ -138,26 +170,33 @@ function saveEDL(EDLcuts, wannaTerminate) {
         if (err) throw err;
         console.log('Vegas EDL file saved!');
         if (wannaTerminate == true) {
-            console.log('FCPXML file saved!')
+            console.log('FCPXML file saved!');
+
+
             process.exit();
+
+
+
         }
     })
 
 
 }
 
-function handleCameraSwitch(keyString, date) {
+function handleCameraSwitch(keyString, date, atemMode) {
 
+    if (atemMode === false) {
+        if (keyString != undefined && keyString.startsWith("numpad")) {
 
+            keyString = keyString.split(' ')[1];
+        }
 
-    if (keyString != undefined && keyString.startsWith("numpad")) {
-
-        keyString = keyString.split(' ')[1];
+        if (keyString == "0") {
+            keyString = "keineNummer";
+        }
     }
 
-    if (keyString == "0") {
-        keyString = "keineNummer";
-    }
+
 
     let cameraAngle = parseInt(keyString);
 
@@ -248,6 +287,7 @@ const xmlString = {
 
 // index of object = track
 let clips = [
+    [],
     [],
     [],
     [],
@@ -399,6 +439,7 @@ function writeFCPXML(edlData, filename) {
 
     // fix duplicating XML clips
     clips = [
+        [],
         [],
         [],
         [],
