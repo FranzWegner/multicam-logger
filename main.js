@@ -288,14 +288,6 @@ const xmlString = {
 // index of object = track
 let clips = [
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
     []
 ]
 
@@ -390,16 +382,23 @@ function parseEdl(edl) {
     for (let lineIndex in lines) {
         if (lineIndex > 0) {
             let parameters = lines[lineIndex].split(";")
-            let clipItem = {
-                track: parseInt(parameters[1].trim()),
-                timelineStart: parseInt(parameters[2].trim()),
-                timelineDuration: parseInt(parameters[3].trim()),
-                filename: parameters[11].trim().slice(3, 7),
-                clipIn: parseInt(parameters[13].trim()),
-                clipDuration: parseInt(parameters[14].trim())
+
+            let track = parseInt(parameters[1].trim());
+
+            if (track === 1) {
+                let clipItem = {
+                    track: track,
+                    timelineStart: parseInt(parameters[2].trim()),
+                    timelineDuration: parseInt(parameters[3].trim()),
+                    filename: parameters[11].trim().slice(3, 7),
+                    clipIn: parseInt(parameters[13].trim()),
+                    clipDuration: parseInt(parameters[14].trim())
+                }
+
+                addParsedEdlClipToClipObj(clipItem);
             }
 
-            addParsedEdlClipToClipObj(clipItem);
+
         }
 
     }
@@ -439,14 +438,6 @@ function writeFCPXML(edlData, filename) {
 
     // fix duplicating XML clips
     clips = [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
         [],
         []
     ];
