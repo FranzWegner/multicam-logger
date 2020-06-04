@@ -2,9 +2,9 @@
 
 First install [Node.js](https://nodejs.org/en/download/)
 
-Then install io-hook in your terminal, while being in the script folder (this will capture your keyboard presses)
+Install dependencies
 ```sh
-$ npm install iohook
+$ npm install
 ```
 
 NEW: Native Blackmagic ATEM support (connect to ATEM Switcher in network and only logs when program bus is changed)
