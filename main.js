@@ -1,6 +1,6 @@
 "use strict"
 
-// TO DO handle saving of lots of camera angles (edl parse is starting before edl is ready)
+
 let amountOfCams = 4;
 
 const fs = require('fs');
@@ -15,20 +15,35 @@ let startParams = {
 }
 
 if (startParams.option === "atem") {
-    var Atem = require('atem')
-    var myAtemDevice = new Atem()
-    myAtemDevice.ip = startParams.ip;
-    myAtemDevice.connect()
+    const { Atem } = require('atem-connection')
+    const myAtem = new Atem()
+    myAtem.on('info', console.log)
+    myAtem.on('error', console.error)
+    myAtem.connect(startParams.ip)
 
-    //amountOfCams = 9;
-    myAtemDevice.on('programBus', function(source) {
+    let lastProgram;
 
-        handleCameraSwitch(source, Date.now(), true);
+    myAtem.on('stateChanged', (state, pathToChange) => {
+
+        let currentProgram = state.video.ME["0"].programInput;
+
+        if (currentProgram !== lastProgram) {
+            handleCameraSwitch(currentProgram, Date.now(), true);
+            lastProgram = currentProgram;
+        }
+
     });
 
-    myAtemDevice.on('connectionStateChange', function(state) {
-        console.log('ATEM State: ', state.description);
-    });
+    myAtem.on('connected', () => {
+        console.log("--------------------")
+        console.log("Connected to ATEM")
+    })
+
+    myAtem.on('disconnected', () => {
+        console.log("--------------------")
+        console.log("Disconnected from ATEM")
+    })
+
 
 }
 

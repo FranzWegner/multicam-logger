@@ -1,0 +1,29 @@
+{
+    "name": "multicam-logger",
+    "version": "1.0.0",
+    "description": "192.168.0.111",
+    "main": "main.js",
+    "dependencies": {
+        "atem-connection": "^1.3.0",
+        "iohook": "^0.6.5",
+        "key-emit": "^0.0.4",
+        "keycode": "^2.2.0",
+        "keypress": "^0.2.1",
+        "xev-emitter": "^0.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FranzWegner/multicam-logger.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FranzWegner/multicam-logger/issues"
+    },
+    "homepage": "https://github.com/FranzWegner/multicam-logger#readme"
+}
